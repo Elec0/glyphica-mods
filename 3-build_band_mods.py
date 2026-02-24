@@ -92,12 +92,7 @@ def extract_poem_text(html: str, title: str) -> str:
             flags=re.IGNORECASE,
         )
 
-    text = re.sub(
-        r"^\s*By\s+[A-Z][\w'.\-]*(?:\s+[A-Z][\w'.\-]*(?:\s*\([^)]+\))?)*\s+",
-        "",
-        text,
-        flags=re.IGNORECASE,
-    )
+    # Keep the 'By Author', as it's nice to have and also very hard to properly strip it out without accidentally dropping real poem lines.
     text = re.sub(r"\s+", " ", text).strip()
     return text
 
