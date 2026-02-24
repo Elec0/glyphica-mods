@@ -133,7 +133,6 @@ def extract_poem_text(html: str) -> str:
 
     drop_prefixes = (
         "Public Domain Poetry",
-        "By ",
         "Read, rate",
         "Main Menu",
     )
