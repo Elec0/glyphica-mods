@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 DEFAULT_DATASETS = [
     (
         "vanilla",
-        r"c:\Users\elec0\Documents\Sphere Saves\aliasblack.glyphica\mods\new_mod_1771905747820\content\mod.paragraphs",
+        r"c:\Users\elec0\Documents\Sphere Saves\aliasblack.glyphica\mods\E0MorePoetry\content\mod.paragraphs",
     ),
     ("easy", "band_mods/mod.paragraphs.easy"),
     ("medium", "band_mods/mod.paragraphs.medium"),
